@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DD53F6E1ABDC5FB004BB02A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD53F6D1ABDC5FB004BB02A /* main.m */; };
+		1DD53F711ABDC5FB004BB02A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD53F701ABDC5FB004BB02A /* AppDelegate.m */; };
+		1DD53F741ABDC5FB004BB02A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD53F731ABDC5FB004BB02A /* ViewController.m */; };
+		1DD53F791ABDC5FB004BB02A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD53F781ABDC5FB004BB02A /* Images.xcassets */; };
+		1DD53F7C1ABDC5FB004BB02A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DD53F7A1ABDC5FB004BB02A /* LaunchScreen.xib */; };
+		1DD53F881ABDC5FB004BB02A /* _10________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD53F871ABDC5FB004BB02A /* _10________Tests.m */; };
+		1DD53F921ABDC649004BB02A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD53F911ABDC649004BB02A /* Main.storyboard */; };
+		1DD53F951ABDC67B004BB02A /* SXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD53F941ABDC67B004BB02A /* SXView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DD53F821ABDC5FB004BB02A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DD53F601ABDC5FA004BB02A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD53F671ABDC5FB004BB02A;
+			remoteInfo = "110 - 物理仿真器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DD53F681ABDC5FB004BB02A /* 110 - 物理仿真器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "110 - 物理仿真器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD53F6C1ABDC5FB004BB02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD53F6D1ABDC5FB004BB02A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DD53F6F1ABDC5FB004BB02A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DD53F701ABDC5FB004BB02A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DD53F721ABDC5FB004BB02A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DD53F731ABDC5FB004BB02A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DD53F781ABDC5FB004BB02A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DD53F7B1ABDC5FB004BB02A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1DD53F811ABDC5FB004BB02A /* 110 - 物理仿真器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "110 - 物理仿真器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD53F861ABDC5FB004BB02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD53F871ABDC5FB004BB02A /* _10________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_10________Tests.m"; sourceTree = "<group>"; };
+		1DD53F911ABDC649004BB02A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1DD53F931ABDC67B004BB02A /* SXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXView.h; sourceTree = "<group>"; };
+		1DD53F941ABDC67B004BB02A /* SXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DD53F651ABDC5FB004BB02A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD53F7E1ABDC5FB004BB02A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DD53F5F1ABDC5FA004BB02A = {
+			isa = PBXGroup;
+			children = (
+				1DD53F6A1ABDC5FB004BB02A /* 110 - 物理仿真器 */,
+				1DD53F841ABDC5FB004BB02A /* 110 - 物理仿真器Tests */,
+				1DD53F691ABDC5FB004BB02A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DD53F691ABDC5FB004BB02A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD53F681ABDC5FB004BB02A /* 110 - 物理仿真器.app */,
+				1DD53F811ABDC5FB004BB02A /* 110 - 物理仿真器Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DD53F6A1ABDC5FB004BB02A /* 110 - 物理仿真器 */ = {
+			isa = PBXGroup;
+			children = (
+				1DD53F6F1ABDC5FB004BB02A /* AppDelegate.h */,
+				1DD53F701ABDC5FB004BB02A /* AppDelegate.m */,
+				1DD53F721ABDC5FB004BB02A /* ViewController.h */,
+				1DD53F731ABDC5FB004BB02A /* ViewController.m */,
+				1DD53F931ABDC67B004BB02A /* SXView.h */,
+				1DD53F941ABDC67B004BB02A /* SXView.m */,
+				1DD53F911ABDC649004BB02A /* Main.storyboard */,
+				1DD53F781ABDC5FB004BB02A /* Images.xcassets */,
+				1DD53F7A1ABDC5FB004BB02A /* LaunchScreen.xib */,
+				1DD53F6B1ABDC5FB004BB02A /* Supporting Files */,
+			);
+			path = "110 - 物理仿真器";
+			sourceTree = "<group>";
+		};
+		1DD53F6B1ABDC5FB004BB02A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DD53F6C1ABDC5FB004BB02A /* Info.plist */,
+				1DD53F6D1ABDC5FB004BB02A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DD53F841ABDC5FB004BB02A /* 110 - 物理仿真器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1DD53F871ABDC5FB004BB02A /* _10________Tests.m */,
+				1DD53F851ABDC5FB004BB02A /* Supporting Files */,
+			);
+			path = "110 - 物理仿真器Tests";
+			sourceTree = "<group>";
+		};
+		1DD53F851ABDC5FB004BB02A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DD53F861ABDC5FB004BB02A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DD53F671ABDC5FB004BB02A /* 110 - 物理仿真器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD53F8B1ABDC5FB004BB02A /* Build configuration list for PBXNativeTarget "110 - 物理仿真器" */;
+			buildPhases = (
+				1DD53F641ABDC5FB004BB02A /* Sources */,
+				1DD53F651ABDC5FB004BB02A /* Frameworks */,
+				1DD53F661ABDC5FB004BB02A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "110 - 物理仿真器";
+			productName = "110 - 物理仿真器";
+			productReference = 1DD53F681ABDC5FB004BB02A /* 110 - 物理仿真器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DD53F801ABDC5FB004BB02A /* 110 - 物理仿真器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD53F8E1ABDC5FB004BB02A /* Build configuration list for PBXNativeTarget "110 - 物理仿真器Tests" */;
+			buildPhases = (
+				1DD53F7D1ABDC5FB004BB02A /* Sources */,
+				1DD53F7E1ABDC5FB004BB02A /* Frameworks */,
+				1DD53F7F1ABDC5FB004BB02A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DD53F831ABDC5FB004BB02A /* PBXTargetDependency */,
+			);
+			name = "110 - 物理仿真器Tests";
+			productName = "110 - 物理仿真器Tests";
+			productReference = 1DD53F811ABDC5FB004BB02A /* 110 - 物理仿真器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DD53F601ABDC5FA004BB02A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = shangxianDante;
+				TargetAttributes = {
+					1DD53F671ABDC5FB004BB02A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1DD53F801ABDC5FB004BB02A = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 1DD53F671ABDC5FB004BB02A;
+					};
+				};
+			};
+			buildConfigurationList = 1DD53F631ABDC5FA004BB02A /* Build configuration list for PBXProject "110 - 物理仿真器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DD53F5F1ABDC5FA004BB02A;
+			productRefGroup = 1DD53F691ABDC5FB004BB02A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DD53F671ABDC5FB004BB02A /* 110 - 物理仿真器 */,
+				1DD53F801ABDC5FB004BB02A /* 110 - 物理仿真器Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD53F661ABDC5FB004BB02A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD53F921ABDC649004BB02A /* Main.storyboard in Resources */,
+				1DD53F7C1ABDC5FB004BB02A /* LaunchScreen.xib in Resources */,
+				1DD53F791ABDC5FB004BB02A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD53F7F1ABDC5FB004BB02A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD53F641ABDC5FB004BB02A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD53F741ABDC5FB004BB02A /* ViewController.m in Sources */,
+				1DD53F951ABDC67B004BB02A /* SXView.m in Sources */,
+				1DD53F711ABDC5FB004BB02A /* AppDelegate.m in Sources */,
+				1DD53F6E1ABDC5FB004BB02A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD53F7D1ABDC5FB004BB02A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD53F881ABDC5FB004BB02A /* _10________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DD53F831ABDC5FB004BB02A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD53F671ABDC5FB004BB02A /* 110 - 物理仿真器 */;
+			targetProxy = 1DD53F821ABDC5FB004BB02A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DD53F7A1ABDC5FB004BB02A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD53F7B1ABDC5FB004BB02A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DD53F891ABDC5FB004BB02A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DD53F8A1ABDC5FB004BB02A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DD53F8C1ABDC5FB004BB02A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "110 - 物理仿真器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DD53F8D1ABDC5FB004BB02A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "110 - 物理仿真器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DD53F8F1ABDC5FB004BB02A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "110 - 物理仿真器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/110 - 物理仿真器.app/110 - 物理仿真器";
+			};
+			name = Debug;
+		};
+		1DD53F901ABDC5FB004BB02A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "110 - 物理仿真器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/110 - 物理仿真器.app/110 - 物理仿真器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD53F631ABDC5FA004BB02A /* Build configuration list for PBXProject "110 - 物理仿真器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD53F891ABDC5FB004BB02A /* Debug */,
+				1DD53F8A1ABDC5FB004BB02A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD53F8B1ABDC5FB004BB02A /* Build configuration list for PBXNativeTarget "110 - 物理仿真器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD53F8C1ABDC5FB004BB02A /* Debug */,
+				1DD53F8D1ABDC5FB004BB02A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DD53F8E1ABDC5FB004BB02A /* Build configuration list for PBXNativeTarget "110 - 物理仿真器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD53F8F1ABDC5FB004BB02A /* Debug */,
+				1DD53F901ABDC5FB004BB02A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DD53F601ABDC5FA004BB02A /* Project object */;
+}
