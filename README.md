@@ -13,3 +13,7 @@ iOS重力物理引擎探索
 
 ###模拟捕捉行为 UISnapBehavior
 ![image](https://github.com/dsxNiubility/SXDynamicAnimator/raw/master/screenshots/D4.gif)
+
+
+博客园地址http://www.cnblogs.com/dsxniubility/p/4356598.html
+
